@@ -1,0 +1,60 @@
+.clickable {
+  cursor: pointer;
+}
+
+.listCard {
+  display: flex;
+  flex: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 60vw;
+  min-height: 100px;
+  background-color: #cceffc;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.listCard:hover {
+  box-shadow: 0 0 10px lightgrey;
+}
+
+.listCard section {
+  min-width: 50%;
+  margin: 10px;
+  padding-left: 20px;
+  padding-top: 2px;
+  border: solid white;
+  border-radius: 5px;
+  color: black;
+}
+
+.listCard section .patientDetails {
+  background-color: white;
+  font-style: italic;
+}
+
+.singleItem section:hover {
+  background-color: #e8eaed;
+}
+
+.cardButton {
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 2px 2px 2px grey, -2px 2px 0 grey;
+  background-image: linear-gradient(180deg, lightgrey, white, lightgrey);
+}
+
+.cardButton:hover {
+  box-shadow: 2px 2px 0 black, -2px 2px 0 grey;
+}
+
+.cardButton:active {
+  background-image: linear-gradient(180deg, white, #e6e3e3, white);
+  box-shadow: 2px 2px 2px grey, -2px 2px 0 grey;
+}
+
+.cardButton:active,
+.cardButton:focus {
+  outline: none;
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Jeff",
+    "surname": "VanderMeer",
+    "insuranceNumber": "0001",
+    "phone": "0123456789",
+    "email": "VanderMeer@gmail.com"
+  },
+  {
+    "name": "Frank",
+    "surname": "Herbert",
+    "insuranceNumber": "0002",
+    "phone": "0123456789",
+    "email": "Herbert@gmail.com"
+  },
+  {
+    "name": "Mura",
+    "surname": "Kami",
+    "insuranceNumber": "0003",
+    "phone": "0123456789",
+    "email": "Kami@gmail.com"
+  },
+  {
+    "name": "Wolfgang",
+    "surname": "Hohlbein",
+    "insuranceNumber": "0004",
+    "phone": "0123456789",
+    "email": "Hohlbein@gmail.com"
+  },
+  {
+    "name": "Jennifer",
+    "surname": "Estep",
+    "insuranceNumber": "0005",
+    "phone": "0123456789",
+    "email": "Estep@gmail.com"
+  },
+  {
+    "name": "Terry",
+    "surname": "Pratchett",
+    "insuranceNumber": "0006",
+    "phone": "0123456789",
+    "email": "Pratchett@gmail.com"
+  },
+  {
+    "name": "Sebastian",
+    "surname": "Fitzek",
+    "insuranceNumber": "0007",
+    "phone": "0123456789",
+    "email": "Fitzek@gmail.com"
+  }
+]

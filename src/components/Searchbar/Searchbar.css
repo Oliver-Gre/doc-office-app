@@ -1,0 +1,53 @@
+.searchbarContainer {
+  height: 35px;
+}
+
+.searchbarContainer > * {
+  height: 20px;
+  min-width: 40px;
+  padding: 5px;
+  line-height: 20px;
+  transition: all 0.5s ease-out;
+}
+
+.searchbarContainer input {
+  float: right;
+  border-radius: 20px;
+  outline: none;
+  background-color: lightgrey;
+}
+
+.searchbarContainer input:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.searchbarContainer input::placeholder {
+  color: white;
+  font-style: italic;
+}
+
+.searchbarContainer input:focus {
+  background-color: white;
+}
+
+.searchbarContainer input:focus::placeholder {
+  color: lightgrey;
+}
+
+.searchbarContainer a {
+  text-decoration: none;
+  background-color: #cceffc;
+  text-align: center;
+  float: left;
+}
+
+.searchbarContainer a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.searchbarContainer a:focus {
+  background-color: darkblue;
+  color: white;
+}
